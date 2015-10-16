@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3734AF3D1726CED700407244 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734AF3C1726CED700407244 /* Default-568h@2x.png */; };
+		377A23B518BDFBD400EC584A /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377A23B418BDFBD400EC584A /* Spotify.framework */; };
+		379BACD317D8BBDC007F34AA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379BACD117D8BBDC007F34AA /* MainWindow.xib */; };
+		37E8E0A0174631E9000A9747 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E8E09F174631E9000A9747 /* Security.framework */; };
+		50EECB2915CABA47006E54FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB2815CABA47006E54FA /* UIKit.framework */; };
+		50EECB2B15CABA47006E54FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB2A15CABA47006E54FA /* Foundation.framework */; };
+		50EECB2D15CABA47006E54FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB2C15CABA47006E54FA /* CoreGraphics.framework */; };
+		50EECB3315CABA47006E54FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50EECB3115CABA47006E54FA /* InfoPlist.strings */; };
+		50EECB3515CABA47006E54FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EECB3415CABA47006E54FA /* main.m */; };
+		50EECB3915CABA47006E54FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EECB3815CABA47006E54FA /* AppDelegate.m */; };
+		50EECB6615CABAE1006E54FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6515CABAE1006E54FA /* SystemConfiguration.framework */; };
+		50EECB6815CABAE7006E54FA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6715CABAE7006E54FA /* CFNetwork.framework */; };
+		50EECB6A15CABAEF006E54FA /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6915CABAEF006E54FA /* libstdc++.dylib */; };
+		50EECB6C15CABAF5006E54FA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6B15CABAF5006E54FA /* CoreAudio.framework */; };
+		50EECB6E15CABAFB006E54FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6D15CABAFB006E54FA /* AudioToolbox.framework */; };
+		50EECB7015CABB00006E54FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EECB6F15CABB00006E54FA /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3734AF3C1726CED700407244 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		377A23B418BDFBD400EC584A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = ../../Spotify.framework; sourceTree = "<group>"; };
+		379BACD217D8BBDC007F34AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		37E8E09F174631E9000A9747 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		50EECB2415CABA47006E54FA /* Basic Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EECB2815CABA47006E54FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50EECB2A15CABA47006E54FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50EECB2C15CABA47006E54FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50EECB3015CABA47006E54FA /* Basic Auth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Basic Auth-Info.plist"; sourceTree = "<group>"; };
+		50EECB3215CABA47006E54FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50EECB3415CABA47006E54FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50EECB3615CABA47006E54FA /* Basic Auth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic Auth-Prefix.pch"; sourceTree = "<group>"; };
+		50EECB3715CABA47006E54FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50EECB3815CABA47006E54FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50EECB6515CABAE1006E54FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		50EECB6715CABAE7006E54FA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		50EECB6915CABAEF006E54FA /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		50EECB6B15CABAF5006E54FA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		50EECB6D15CABAFB006E54FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		50EECB6F15CABB00006E54FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EECB2115CABA47006E54FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E8E0A0174631E9000A9747 /* Security.framework in Frameworks */,
+				50EECB7015CABB00006E54FA /* AVFoundation.framework in Frameworks */,
+				377A23B518BDFBD400EC584A /* Spotify.framework in Frameworks */,
+				50EECB6E15CABAFB006E54FA /* AudioToolbox.framework in Frameworks */,
+				50EECB6C15CABAF5006E54FA /* CoreAudio.framework in Frameworks */,
+				50EECB6A15CABAEF006E54FA /* libstdc++.dylib in Frameworks */,
+				50EECB6815CABAE7006E54FA /* CFNetwork.framework in Frameworks */,
+				50EECB6615CABAE1006E54FA /* SystemConfiguration.framework in Frameworks */,
+				50EECB2915CABA47006E54FA /* UIKit.framework in Frameworks */,
+				50EECB2B15CABA47006E54FA /* Foundation.framework in Frameworks */,
+				50EECB2D15CABA47006E54FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50EECB1915CABA47006E54FA = {
+			isa = PBXGroup;
+			children = (
+				50EECB2E15CABA47006E54FA /* Basic Auth */,
+				50EECB2715CABA47006E54FA /* Frameworks */,
+				50EECB2515CABA47006E54FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50EECB2515CABA47006E54FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EECB2415CABA47006E54FA /* Basic Auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EECB2715CABA47006E54FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377A23B418BDFBD400EC584A /* Spotify.framework */,
+				37E8E09F174631E9000A9747 /* Security.framework */,
+				50EECB6F15CABB00006E54FA /* AVFoundation.framework */,
+				50EECB6D15CABAFB006E54FA /* AudioToolbox.framework */,
+				50EECB6B15CABAF5006E54FA /* CoreAudio.framework */,
+				50EECB6915CABAEF006E54FA /* libstdc++.dylib */,
+				50EECB6715CABAE7006E54FA /* CFNetwork.framework */,
+				50EECB6515CABAE1006E54FA /* SystemConfiguration.framework */,
+				50EECB2815CABA47006E54FA /* UIKit.framework */,
+				50EECB2A15CABA47006E54FA /* Foundation.framework */,
+				50EECB2C15CABA47006E54FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50EECB2E15CABA47006E54FA /* Basic Auth */ = {
+			isa = PBXGroup;
+			children = (
+				50EECB3715CABA47006E54FA /* AppDelegate.h */,
+				50EECB3815CABA47006E54FA /* AppDelegate.m */,
+				50EECB2F15CABA47006E54FA /* Supporting Files */,
+			);
+			path = "Basic Auth";
+			sourceTree = "<group>";
+		};
+		50EECB2F15CABA47006E54FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				379BACD117D8BBDC007F34AA /* MainWindow.xib */,
+				50EECB3015CABA47006E54FA /* Basic Auth-Info.plist */,
+				50EECB3115CABA47006E54FA /* InfoPlist.strings */,
+				3734AF3C1726CED700407244 /* Default-568h@2x.png */,
+				50EECB3415CABA47006E54FA /* main.m */,
+				50EECB3615CABA47006E54FA /* Basic Auth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EECB2315CABA47006E54FA /* Basic Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EECB4515CABA47006E54FA /* Build configuration list for PBXNativeTarget "Basic Auth" */;
+			buildPhases = (
+				50EECB2015CABA47006E54FA /* Sources */,
+				50EECB2115CABA47006E54FA /* Frameworks */,
+				50EECB2215CABA47006E54FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Auth";
+			productName = "Empty CocoaLibSpotify Project";
+			productReference = 50EECB2415CABA47006E54FA /* Basic Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EECB1B15CABA47006E54FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Your Company";
+			};
+			buildConfigurationList = 50EECB1E15CABA47006E54FA /* Build configuration list for PBXProject "Basic Auth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50EECB1915CABA47006E54FA;
+			productRefGroup = 50EECB2515CABA47006E54FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EECB2315CABA47006E54FA /* Basic Auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EECB2215CABA47006E54FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EECB3315CABA47006E54FA /* InfoPlist.strings in Resources */,
+				3734AF3D1726CED700407244 /* Default-568h@2x.png in Resources */,
+				379BACD317D8BBDC007F34AA /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EECB2015CABA47006E54FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EECB3515CABA47006E54FA /* main.m in Sources */,
+				50EECB3915CABA47006E54FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		379BACD117D8BBDC007F34AA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379BACD217D8BBDC007F34AA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		50EECB3115CABA47006E54FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EECB3215CABA47006E54FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50EECB4315CABA47006E54FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50EECB4415CABA47006E54FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50EECB4615CABA47006E54FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../..,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic Auth/Basic Auth-Prefix.pch";
+				INFOPLIST_FILE = "Basic Auth/Basic Auth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Basic Auth";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50EECB4715CABA47006E54FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../..,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic Auth/Basic Auth-Prefix.pch";
+				INFOPLIST_FILE = "Basic Auth/Basic Auth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Basic Auth";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EECB1E15CABA47006E54FA /* Build configuration list for PBXProject "Basic Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EECB4315CABA47006E54FA /* Debug */,
+				50EECB4415CABA47006E54FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EECB4515CABA47006E54FA /* Build configuration list for PBXNativeTarget "Basic Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EECB4615CABA47006E54FA /* Debug */,
+				50EECB4715CABA47006E54FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50EECB1B15CABA47006E54FA /* Project object */;
+}
